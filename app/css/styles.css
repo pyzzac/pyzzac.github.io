@@ -1,3 +1,7 @@
+.max-width {
+  width: 100%;
+  max-width: 1024px; }
+
 .mobile-full {
   width: 100%;
   float: left; }
@@ -70,6 +74,10 @@
 
 .primary-bg {
   background-color: #414141;
+  overflow: hidden; }
+
+.white-bg {
+  background-color: #fff;
   overflow: hidden; }
 
 html, body, div, span, applet, object, iframe,
