@@ -1,6 +1,8 @@
 .max-width {
   width: 100%;
-  max-width: 1024px; }
+  max-width: 1024px;
+  display: block;
+  margin: auto; }
 
 .mobile-full {
   width: 100%;
@@ -122,3 +124,6 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+.header-padding {
+  padding: 40px 0; }
