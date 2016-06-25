@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pyzzac/pyzzac.github.io/issues"
   },
-  "homepage": "https://github.com/pyzzac/pyzzac.github.io#readme"
+  "homepage": "https://github.com/pyzzac/pyzzac.github.io#readme",
+  "devDependencies": {
+    "gulp-minify-css": "^1.2.4"
+  }
 }
