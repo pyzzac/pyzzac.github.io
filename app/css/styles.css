@@ -1,0 +1,70 @@
+@media (max-width: 500px) {
+  .mobile-full {
+    width: 100%;
+    float: left; }
+  .mobile-half {
+    width: 44.9%;
+    float: left;
+    margin-left: .1%; }
+  .mobile-third {
+    width: 33.2%;
+    float: left;
+    margin-left: .1%; }
+  .mobile-quarter {
+    width: 24.9%;
+    float: left;
+    margin-left: .1%; } }
+
+@media (min-width: 501px) and (max-width: 900px) {
+  .phablet-full {
+    width: 100%;
+    float: left; }
+  .phablet-half {
+    width: 44.9%;
+    float: left;
+    margin-left: .1%; }
+  .phablet-third {
+    width: 33.2%;
+    float: left;
+    margin-left: .1%; }
+  .phablet-quarter {
+    width: 24.9%;
+    float: left;
+    margin-left: .1%; } }
+
+@media (min-width: 901px) and (max-width: 1200px) {
+  .tablet-full {
+    width: 100%;
+    float: left; }
+  .tablet-half {
+    width: 44.9%;
+    float: left;
+    margin-left: .1%; }
+  .tablet-third {
+    width: 33.2%;
+    float: left;
+    margin-left: .1%; }
+  .tablet-quarter {
+    width: 24.9%;
+    float: left;
+    margin-left: .1%; } }
+
+@media (min-width: 1201px) {
+  .desktop-full {
+    width: 100%;
+    float: left; }
+  .desktop-half {
+    width: 44.9%;
+    float: left;
+    margin-left: .1%; }
+  .desktop-third {
+    width: 33.2%;
+    float: left;
+    margin-left: .1%; }
+  .desktop-quarter {
+    width: 24.9%;
+    float: left;
+    margin-left: .1%; } }
+
+.primary-background {
+  background-color: #414141; }
