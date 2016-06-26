@@ -185,7 +185,7 @@ a.hover-txt {
   font-weight: 500; }
 
 #effect-slide .overlay {
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
   width: 100%;
