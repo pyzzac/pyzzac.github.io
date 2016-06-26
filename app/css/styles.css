@@ -23,7 +23,7 @@
   float: left;
   margin-left: .1%; }
 
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) {
   .phablet-full {
     width: 100%;
     float: left; }
@@ -40,7 +40,7 @@
     float: left;
     margin-left: .1%; } }
 
-@media (min-width: 901px) and (max-width: 1200px) {
+@media (min-width: 900px) {
   .tablet-full {
     width: 100%;
     float: left; }
@@ -57,7 +57,7 @@
     float: left;
     margin-left: .1%; } }
 
-@media (min-width: 1201px) {
+@media (min-width: 1200px) {
   .desktop-full {
     width: 100%;
     float: left; }
