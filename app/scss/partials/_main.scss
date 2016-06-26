@@ -1,5 +1,23 @@
 .grumpy-banner {
-	background: url(../images/banner.jpg) no-repeat;
+	background: url(/app/images/banner.jpg) no-repeat;
 	background-size:cover;
-	padding:150px;
+	min-height:500px;
+}
+
+@media (min-width: 500px) and (max-width : 900px) {
+	.grumpy-banner {
+		min-height:250px;
+	}
+}
+
+@media (min-width: 901px) and (max-width : 1200px) {
+	.grumpy-banner {
+		min-height:300px;
+	}
+}
+
+@media (min-width: 1201px) {
+	.grumpy-banner {
+		min-height:400px;
+	}
 }
