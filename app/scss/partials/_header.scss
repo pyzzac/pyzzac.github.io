@@ -6,3 +6,9 @@
 	font-weight:bold;
 	font-size:2em;
 }
+
+@media screen and (max-width: 900px) {
+	.logo-txt {
+		padding-left: 65px;
+	}
+}

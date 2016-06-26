@@ -146,6 +146,10 @@ table {
   font-weight: bold;
   font-size: 2em; }
 
+@media screen and (max-width: 900px) {
+  .logo-txt {
+    padding-left: 65px; } }
+
 div {
   box-sizing: border-box; }
 
@@ -294,7 +298,8 @@ p {
 @media screen and (max-width: 900px) {
   .menu {
     position: relative;
-    display: inline-block; }
+    display: inline-block;
+    margin-right: 65px; }
   .menu ul.active {
     display: none; }
   .menu ul {
