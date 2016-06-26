@@ -1,10 +1,10 @@
 .grumpy-banner {
-	background: url(/app/images/banner.jpg) no-repeat;
+	background: url(/app/images/banner.jpg) no-repeat center center;
 	background-size:cover;
 	min-height:500px;
 }
 
-@media (min-width: 500px) and (max-width : 900px) {
+@media (max-width : 900px) {
 	.grumpy-banner {
 		min-height:250px;
 	}
