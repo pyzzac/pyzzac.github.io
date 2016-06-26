@@ -150,7 +150,17 @@ table {
 
 .footer-links a {
   color: #aeaeae;
-  text-decoration: none; }
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.4em; }
+
+.footer-links ul li a {
+  color: #aeaeae;
+  text-decoration: none;
+  text-align: center; }
+
+footer {
+  padding: 70px 0; }
 
 div {
   box-sizing: border-box; }
