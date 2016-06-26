@@ -148,6 +148,10 @@ table {
   .logo-txt {
     padding-left: 65px; } }
 
+.footer-links a {
+  color: #aeaeae;
+  text-decoration: none; }
+
 div {
   box-sizing: border-box; }
 
