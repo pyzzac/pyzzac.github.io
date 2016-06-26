@@ -11,9 +11,20 @@
 .footer-links .menu-item {
 	color:#aeaeae;
 	text-decoration:none;
-	font-size:0.9em;
+	font-size: 0.75em;
+    padding: 10px;
+}
+
+.footer-links .menu-item li{
+    padding: 5px;
 }
 
 footer {
 	padding:70px 0;
+}
+
+@media screen and (max-width: 900px) {
+	.footer-links .menu-item {
+		display: none;
+	}
 }
