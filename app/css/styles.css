@@ -226,7 +226,7 @@ p {
   max-width: 750px;
   display: block;
   margin: auto;
-  margin: 50px 0; }
+  padding: 50px 0; }
 
 @media (max-width: 900px) {
   .grumpy-banner {
