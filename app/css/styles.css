@@ -318,7 +318,7 @@ p {
   .grumpy-banner {
     min-height: 300px; }
   .effects {
-    padding: 15px; } }
+    padding: 0px; } }
 
 @media (max-width: 500px) {
   .effects {
