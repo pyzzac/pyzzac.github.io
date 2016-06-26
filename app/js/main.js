@@ -1,10 +1,15 @@
 $(document).ready(function(){
-	// handle the mouseenter functionality
 	$(".grumpy-hover").mouseenter(function(){
 		$(this).addClass("hover");
 	})
-	 // handle the mouseleave functionality
 	.mouseleave(function(){
 		$(this).removeClass("hover");
 	});
+});
+$(document).ready(function() {
+    $('.toggle-nav').click(function(e) {
+        $(this).toggleClass('active');
+        $('.menu ul').toggleClass('active'); 
+        e.preventDefault();
+    });
 });
