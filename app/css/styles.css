@@ -172,8 +172,8 @@ footer {
   footer {
     padding: 30px 0; }
   .footer-links {
-    text-align: center; }
-  .footer-links .menu-item {
+    padding: 5px; }
+  .menu-item {
     display: none; } }
 
 div {
