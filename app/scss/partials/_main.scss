@@ -17,17 +17,7 @@ img .grumpy {
 	position: relative;
 	float: left;
 	margin-bottom: 5px;
-	width: 25%;
 	overflow: hidden;
-}
-.effects .grumpy-hover:nth-child(n) {
-	margin-right: 5px;
-}
-.effects .grumpy-hover:first-child {
-	margin-left: -15px;
-}
-.effects .grumpy-hover:last-child {
-	margin-right: 0;
 }
 .effects .grumpy-hover img {
 	display: block;
@@ -99,7 +89,7 @@ p {
 	max-width: 750px;
 	display: block;
 	margin: auto;
-	margin:50px 0;
+	padding:50px 0;
 }
 
 @media (max-width : 900px) {
