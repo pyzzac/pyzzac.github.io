@@ -140,12 +140,12 @@ table {
 
 @media (min-width: 500px) and (max-width: 900px) {
   .grumpy-banner {
-    min-height: 500px; } }
+    min-height: 250px; } }
 
 @media (min-width: 901px) and (max-width: 1200px) {
   .grumpy-banner {
-    min-height: 500px; } }
+    min-height: 300px; } }
 
 @media (min-width: 1201px) {
   .grumpy-banner {
-    min-height: 500px; } }
+    min-height: 400px; } }
