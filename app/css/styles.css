@@ -191,6 +191,10 @@ div {
 .grumpy {
   width: 100%; }
 
+.oh-great {
+  font-size: 2.3em;
+  padding-top: 140px; }
+
 .effects {
   padding: 0 0 0 15px; }
 
@@ -281,9 +285,17 @@ p {
   display: block;
   margin: auto; }
 
+@media (max-width: 1200px) {
+  .oh-great {
+    padding-top: 110px; } }
+
+@media (max-width: 1200px) {
+  .oh-great {
+    padding-top: 110px; } }
+
 @media (max-width: 900px) {
-  .grumpy-banner {
-    min-height: 250px; } }
+  .oh-great {
+    padding-top: 90px; } }
 
 @media (min-width: 901px) and (max-width: 1200px) {
   .grumpy-banner {
