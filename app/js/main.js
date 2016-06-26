@@ -15,4 +15,8 @@ $(document).ready(function() {
     });
 });
 
-$('.expand').simpleexpand();
+$( ".expand" ).click(function() {
+  $( ".menu-item" ).slideToggle( "slow", function() {
+    // Animation complete.
+  });
+});
