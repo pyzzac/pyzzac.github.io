@@ -398,8 +398,8 @@ p {
     display: block; }
   .menu a:hover {
     transition: all 0.2s ease-in-out 0s;
-    background-color: #414141;
-    padding: 10px; }
+    background-color: none;
+    padding: 0px; }
   .toggle-nav {
     padding: 10px;
     float: left;
