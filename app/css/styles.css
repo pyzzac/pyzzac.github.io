@@ -400,6 +400,10 @@ p {
     transition: all 0.2s ease-in-out 0s;
     background-color: none;
     padding: 0px; }
+  .mobile-hamburger {
+    transition: all 0.2s ease-in-out 0s;
+    background-color: #414141;
+    padding: 10px; }
   .toggle-nav {
     padding: 10px;
     float: left;
