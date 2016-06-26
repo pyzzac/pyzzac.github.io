@@ -48,11 +48,17 @@ img .grumpy {
 
 a.hover-txt {
 	display: block;
-    width: 60px;
-    height: 60px;
-    font-size: 2em;
-    text-decoration: none;
-    font-weight: 500;
+	position: absolute;
+	z-index: 100;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	color: #fff;
+	line-height: 50px;
+	font-weight: 700;
+	font-size: 2em;
+	text-decoration: none;
+	font-weight: 500;
 }
 
 #effect-slide .overlay {
