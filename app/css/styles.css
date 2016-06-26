@@ -313,7 +313,8 @@ p {
 
 @media (min-width: 501px) and (max-width: 900px) {
   .oh-great {
-    padding-top: 90px; }
+    padding-top: 90px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.46); }
   .grumpy-banner {
     min-height: 300px; } }
 
@@ -321,7 +322,9 @@ p {
   .effects {
     padding: 15px; }
   .grumpy-banner {
-    min-height: 300px; } }
+    min-height: 300px; }
+  .oh-great {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.46); } }
 
 .menu ul {
   display: inline-block;
