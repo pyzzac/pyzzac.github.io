@@ -142,6 +142,9 @@ table {
   font-weight: bold;
   font-size: 2em; }
 
+div {
+  box-sizing: border-box; }
+
 .grumpy-banner {
   background: url(/app/images/banner.jpg) no-repeat center center;
   background-size: cover;
