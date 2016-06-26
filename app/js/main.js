@@ -1,10 +1,9 @@
-$(document).ready(function(){
-	// handle the mouseenter functionality
-	$(".grumpy-hover").mouseenter(function(){
-		$(this).addClass("hover");
-	})
-	 // handle the mouseleave functionality
-	.mouseleave(function(){
-		$(this).removeClass("hover");
-	});
+$(document).ready(function() {
+  $(window).scroll(function(){
+    $('*[class^="grumpy-banner"]').each(function(r){
+      var pos = $(this).offset().top;
+      var scrolled = $(window).scrollTop();
+        $('*[class^="grumpy-banner"]').css('top', -(scrolled * 0.5) + 'px');     
+      });
+  });
 });
