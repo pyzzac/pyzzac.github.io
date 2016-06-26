@@ -49,9 +49,9 @@
     float: left;
     margin-left: .1%; }
   .tablet-third {
-    width: 33.2%;
+    width: 32.2%;
     float: left;
-    margin-left: .1%; }
+    margin-left: 1.1%; }
   .tablet-quarter {
     width: 24.9%;
     float: left;
@@ -172,8 +172,6 @@ a.hover-txt {
   display: block;
   position: absolute;
   z-index: 100;
-  width: 60px;
-  height: 60px;
   text-align: center;
   color: #fff;
   font-weight: 700;
@@ -192,7 +190,7 @@ a.hover-txt {
   left: 0;
   right: 0;
   bottom: 50%;
-  margin: 0 auto -30px auto; }
+  margin: 0 auto -15px auto; }
 
 #effect-slide .grumpy-hover.hover .overlay {
   height: 100%; }
@@ -216,9 +214,10 @@ p {
   max-width: 750px;
   display: block;
   margin: auto;
-  padding: 50px 0; }
+  padding: 50px 0;
+  overflow: hidden; }
 
-.pad-5 {
+.pad-0-5 {
   padding: 5px; }
 
 @media (max-width: 900px) {

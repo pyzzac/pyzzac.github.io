@@ -28,6 +28,11 @@
   margin-left: .1%;
 }
 
+.mobile-three-quarters {
+  width: 74.9%;
+  float: left;
+  margin-left: .1%;
+}
 
 @media (min-width: 500px) {
   .phablet-full {
@@ -67,9 +72,9 @@
   }
 
   .tablet-third {
-    width: 33.2%;
+    width: 32.2%;
     float: left;
-    margin-left: .1%;
+    margin-left: 1.1%;
   }
 
   .tablet-quarter {
