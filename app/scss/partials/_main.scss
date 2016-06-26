@@ -8,15 +8,6 @@ div {
 	min-height:500px;
 }
 
-*[class^="grumpy-banner"] {
-  position: absolute;
-  width: 100%;
-  height: 300%;
-  top:0;
-  left:0;
-  z-index: -1;
-}
-
 .text-center {text-align:center;}
 
 .grumpy {
@@ -102,6 +93,7 @@ p {
 	padding:0 15px;
 	display: block;
 	margin: auto;
+	max-width:750px;
 }
 
 .grumpy-tiles {

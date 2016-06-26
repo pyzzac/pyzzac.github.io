@@ -64,6 +64,10 @@
   .tablet-quarter {
     width: 24.9%;
     float: left;
+    margin-left: .1%; }
+  .tablet-three-quarters {
+    width: 74.9%;
+    float: left;
     margin-left: .1%; } }
 
 @media (min-width: 1200px) {
@@ -150,14 +154,6 @@ div {
   background-size: cover;
   min-height: 500px; }
 
-*[class^="grumpy-banner"] {
-  position: absolute;
-  width: 100%;
-  height: 300%;
-  top: 0;
-  left: 0;
-  z-index: -1; }
-
 .text-center {
   text-align: center; }
 
@@ -233,7 +229,8 @@ p {
 .lorem-ipsum {
   padding: 0 15px;
   display: block;
-  margin: auto; }
+  margin: auto;
+  max-width: 750px; }
 
 .grumpy-tiles {
   width: 100%;
