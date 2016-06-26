@@ -293,13 +293,11 @@ p {
   .oh-great {
     padding-top: 110px; } }
 
-@media (max-width: 900px) {
-  .oh-great {
-    padding-top: 90px; } }
-
 @media (min-width: 901px) and (max-width: 1200px) {
   .grumpy-banner {
-    min-height: 300px; } }
+    min-height: 300px; }
+  .oh-great {
+    padding-top: 90px; } }
 
 @media (max-width: 500px) {
   .effects {
