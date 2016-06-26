@@ -1,14 +1,17 @@
+.footer-links {
+	text-align:center;
+}
+
 .footer-links a {
 	color:#aeaeae;
 	text-decoration:none;
-	text-align:center;
 	font-size:1.4em;
 }
 
-.footer-links ul li a {
+.footer-links .menu-item {
 	color:#aeaeae;
 	text-decoration:none;
-	text-align:center;
+	font-size:0.9em;
 }
 
 footer {
