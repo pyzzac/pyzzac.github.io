@@ -17,6 +17,5 @@ $(document).ready(function() {
 
 $( ".expand" ).click(function() {
   $( ".menu-item" ).slideToggle( "slow", function() {
-    // Animation complete.
   });
 });
