@@ -402,7 +402,7 @@ p {
     padding: 0px; }
   .mobile-hamburger {
     transition: all 0.2s ease-in-out 0s;
-    background-color: #414141;
+    background-color: #414141 !important;
     padding: 10px !important; }
   .toggle-nav {
     padding: 10px;
