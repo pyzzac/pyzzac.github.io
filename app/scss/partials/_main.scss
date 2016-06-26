@@ -122,13 +122,16 @@ p {
 	.grumpy-banner {
 		min-height:250px;
 	}
-	.effects {
-		padding: 15px;
-	}
 }
 
 @media (min-width: 901px) and (max-width : 1200px) {
 	.grumpy-banner {
 		min-height:300px;
+	}
+}
+
+@media (max-width : 500px) {
+	.effects {
+		padding: 15px;
 	}
 }
