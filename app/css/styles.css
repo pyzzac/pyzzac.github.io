@@ -199,17 +199,11 @@ a.close-overlay.hidden {
 
 a.hover-txt {
   display: block;
-  position: absolute;
-  z-index: 100;
   width: 60px;
   height: 60px;
-  border: solid 5px #fff;
-  text-align: center;
-  color: #fff;
-  line-height: 50px;
-  font-weight: 700;
-  font-size: 30px;
-  border-radius: 30px; }
+  font-size: 2em;
+  text-decoration: none;
+  font-weight: 500; }
 
 #effect-slide .overlay {
   bottom: 0;
