@@ -302,10 +302,10 @@ p {
   .menu ul.active {
     display: none; }
   .menu ul {
-    width: 100%;
+    width: 180%;
     position: absolute;
     top: 120%;
-    left: 0px;
+    left: -20px;
     padding: 10px 18px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
     border-radius: 3px;
@@ -328,7 +328,7 @@ p {
   .menu a {
     display: block; }
   .toggle-nav {
-    padding: 20px;
+    padding: 10px;
     float: left;
     display: inline-block;
     background: #303030;
