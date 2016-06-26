@@ -232,6 +232,10 @@ p {
 .pad-15 {
   padding: 15px; }
 
+.center-item {
+  display: block;
+  margin: auto; }
+
 @media (max-width: 900px) {
   .grumpy-banner {
     min-height: 250px; } }
