@@ -6,6 +6,7 @@ $(document).ready(function(){
 		$(this).removeClass("hover");
 	});
 });
+
 $(document).ready(function() {
     $('.toggle-nav').click(function(e) {
         $(this).toggleClass('active');
@@ -13,3 +14,5 @@ $(document).ready(function() {
         e.preventDefault();
     });
 });
+
+$('.expand').simpleexpand();
