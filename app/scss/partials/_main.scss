@@ -13,23 +13,23 @@ img .grumpy {
 .effects {
   padding-left: 15px;
 }
-.effects .img {
+.effects .grumpy-hover {
   position: relative;
   float: left;
   margin-bottom: 5px;
   width: 25%;
   overflow: hidden;
 }
-.effects .img:nth-child(n) {
+.effects .grumpy-hover:nth-child(n) {
   margin-right: 5px;
 }
-.effects .img:first-child {
+.effects .grumpy-hover:first-child {
   margin-left: -15px;
 }
-.effects .img:last-child {
+.effects .grumpy-hover:last-child {
   margin-right: 0;
 }
-.effects .img img {
+.effects .grumpy-hover img {
   display: block;
   margin: 0;
   padding: 0;
@@ -94,7 +94,7 @@ a.expand {
   bottom: 50%;
   margin: 0 auto -30px auto;
 }
-#effect-1 .img.hover .overlay {
+#effect-1 .grumpy-hover.hover .overlay {
   height: 100%;
 }
 
