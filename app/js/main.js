@@ -14,8 +14,3 @@ $(document).ready(function() {
         e.preventDefault();
     });
 });
-
-$( ".expand" ).click(function() {
-  $( ".menu-item" ).slideToggle( "slow", function() {
-  });
-});
