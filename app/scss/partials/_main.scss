@@ -52,20 +52,20 @@ a.hover-txt {
 	font-weight: 500;
 }
 
-.effect-slide .overlay {
+#effect-slide .overlay {
 	top: 0;
 	left: 0;
 	right: 0;
 	width: 100%;
 	height: 0;
 }
-.effect-slide .overlay a.hover-txt {
+#effect-slide .overlay a.hover-txt {
 	left: 0;
 	right: 0;
 	bottom: 50%;
 	margin: 0 auto -15px auto;
 }
-.effect-slide .grumpy-hover.hover .overlay {
+#effect-slide .grumpy-hover.hover .overlay {
   height: 100%;
 }
 
