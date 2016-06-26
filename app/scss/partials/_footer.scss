@@ -8,6 +8,12 @@
 	font-size:1.4em;
 }
 
+.footer-links a:hover {
+	color:#c6c6c6;
+	font-weight:bold;
+	transition: all 0.2s ease-in-out 0s;
+}
+
 .footer-links .menu-item {
 	color:#aeaeae;
 	text-decoration:none;
