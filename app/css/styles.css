@@ -316,7 +316,9 @@ p {
     padding-top: 90px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.46); }
   .grumpy-banner {
-    min-height: 300px; } }
+    min-height: 300px; }
+  .effects {
+    padding: 15px; } }
 
 @media (max-width: 500px) {
   .effects {
