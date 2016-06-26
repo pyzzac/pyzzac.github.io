@@ -145,7 +145,3 @@ table {
 @media (min-width: 901px) and (max-width: 1200px) {
   .grumpy-banner {
     min-height: 300px; } }
-
-@media (min-width: 1201px) {
-  .grumpy-banner {
-    min-height: 400px; } }
